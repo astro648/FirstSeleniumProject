@@ -1,6 +1,7 @@
 import random
 
-print("Generate Random Number from 1-100")
+print("Generate 10 Random Numbers from 1-100")
 print("\n")
 
-print(random.randint(1,100))
+for i in range(10):
+    print(random.randint(1, 100))
