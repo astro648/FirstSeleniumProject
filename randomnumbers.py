@@ -6,18 +6,16 @@ for i in range(10):
 print("\n")
 
 print("Generate 10 Random Even Numbers")
-counteven = 1
 for counteven in range(10):
     a = random.randint(1, 100)
-    if a == int(a):
+    if a % 2 == 0:
         print(a)
         counteven = counteven + 1
 print("\n")
 
 print("Generate 10 Random Odd Numbers")
-countodd = 1
-for countodd in range(10):
+-+for countodd in range(10):
     b = random.randint(1, 100)
-    if b != int(b):
+    if b % 2 != 0:
         print(b)
         countodd = countodd + 1
