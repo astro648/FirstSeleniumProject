@@ -14,7 +14,7 @@ for counteven in range(10):
 print("\n")
 
 print("Generate 10 Random Odd Numbers")
--+for countodd in range(10):
+for countodd in range(10):
     b = random.randint(1, 100)
     if b % 2 != 0:
         print(b)
