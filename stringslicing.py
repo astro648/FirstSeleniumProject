@@ -1,5 +1,5 @@
 session = "Selenium Web Driver"
-print("To get a context of what is happening, go to the code.")
+print("To get a context and explanation of what is happening, go to the code.")
 # [x:y] <-- Array
 # x is starting value, y is ending value
 # array always starts at 0
@@ -38,3 +38,13 @@ print(string1+" "+string2)
 # same example but with a space
 print(string1+" "+"World")
 # you can also concatenate strings and directly written values
+startagetext = "The age that I started using computers is {} and at the time of creating this my age is {}"
+startage = "5"
+currentage = "12"
+print(startagetext.format(startage,currentage))
+# basically with .format(), you add values to the original string
+# example:
+# arbitrarystring = "value goes here: {}"
+# value = 123
+# print(arbritrarystring.format(value))
+# or you can add multiple values by using commas as demonstrated outside of the comments
