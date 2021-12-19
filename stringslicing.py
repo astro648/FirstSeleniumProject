@@ -1,4 +1,5 @@
 session = "Selenium Web Driver"
+print("")
 # [x:y] <-- Array
 # x is starting value, y is ending value
 # array always starts at 0
@@ -15,3 +16,5 @@ print(session.upper())
 # just write variable.upper()
 print(session.lower())
 # lowercase: same thing as uppercase but it's lower
+print(session.strip())
+# to remove all the extra spaces from string, use .strip()
