@@ -23,3 +23,7 @@ print(session.replace("e","3"))
 # and "y" as the replacement
 # to replace a character, use:
 # .replace("x","y"
+print(session.split(" "))
+# in this example, "b" can be the character we want to split based on
+# also, the string "a" with the content "abababa" will be split
+# .split("b") changes abababa to ['a','a','a','a']
