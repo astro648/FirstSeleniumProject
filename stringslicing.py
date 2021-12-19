@@ -51,7 +51,26 @@ print(startagetext.format(startage,currentage))
 age = "my age is \"12\""
 print(age)
 # use \ before characters like " to make it show
-number = "asdf23"
-alnum = number.isalnum()
+value = "asdf23"
+alnum = value.isalnum()
 alnumstr = str(alnum)
-print("Is \""+number+"\" alphanumeric? : "+alnumstr)
+print("Is \""+value+"\" alphanumeric? : "+alnumstr)
+# .isalnum() checks if the value is alphanumeric
+number = "123"
+alpha = number.isalpha()
+alphastr = str(alpha)
+print("Is \""+number+"\" completely made of alphabet? : "+alphastr)
+# .isalpha() checks whether the value inputted is completely alphabet
+alpha2 = value.isalpha()
+alphastr2 = str(alpha)
+print("Is \""+value+"\" completely made of alphabet? : "+alphastr2)
+# likewise, this works with strings that are alphanumeric
+num = number.isnumeric()
+numstr = str(num)
+print("Is \""+number+"\" completely made of numbers? : "+numstr)
+# .isnumeric() is .isalpha() but number
+check = 2>3
+boolcheck = bool(check)
+strboolcheck = str(boolcheck)
+print("2>3? : "+strboolcheck)
+# Checks if a certain equation is true and outputs the bool
