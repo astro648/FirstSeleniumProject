@@ -27,3 +27,10 @@ print(session.split(" "))
 # in this example, "b" can be the character we want to split based on
 # also, the string "a" with the content "abababa" will be split
 # .split("b") changes abababa to ['a','a','a','a']
+string1 = "Hello"
+string2 = "World"
+print(string1+string2)
+# in this example string1 ("Hello")
+# is concatenated with string2 ("World")
+# to create "HelloWorld"
+# by using + in between the values
