@@ -34,3 +34,7 @@ print(string1+string2)
 # is concatenated with string2 ("World")
 # to create "HelloWorld"
 # by using + in between the values
+print(string1+" "+string2)
+# same example but with a space
+print(string1+" "+"World")
+# you can also concatenate strings and directly written values
