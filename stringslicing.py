@@ -1,5 +1,5 @@
 session = "Selenium Web Driver"
-print("")
+print("To get a context of what is happening, go to the code.")
 # [x:y] <-- Array
 # x is starting value, y is ending value
 # array always starts at 0
@@ -18,3 +18,8 @@ print(session.lower())
 # lowercase: same thing as uppercase but it's lower
 print(session.strip())
 # to remove all the extra spaces from string, use .strip()
+print(session.replace("e","3"))
+# in this example, we can use "x" as the original character
+# and "y" as the replacement
+# to replace a character, use:
+# .replace("x","y"
