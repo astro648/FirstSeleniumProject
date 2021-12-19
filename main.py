@@ -20,7 +20,7 @@ y = 2.8
 z = 1j
 print("\n")
 
-# datatype conversion examples
+# datatype conversion (casting) examples
 print("'x' datatype before conversion: ", type(x));
 a = float(x)
 print("'x' datatype after conversion: ", type(a));
