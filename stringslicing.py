@@ -9,3 +9,9 @@ print(session[:8])
 print(session[0:])
 # in this situation lets call z the end value
 # if you want to start from the end, instead of writing [x:z] you just write [x:]
+print(session.upper())
+# if you want the whole thing to go to uppercase
+# in this example we want the string session to go to uppercase
+# just write variable.upper()
+print(session.lower())
+# lowercase: same thing as uppercase but it's lower
