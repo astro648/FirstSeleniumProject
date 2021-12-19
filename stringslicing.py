@@ -48,3 +48,10 @@ print(startagetext.format(startage,currentage))
 # value = 123
 # print(arbritrarystring.format(value))
 # or you can add multiple values by using commas as demonstrated outside of the comments
+age = "my age is \"12\""
+print(age)
+# use \ before characters like " to make it show
+number = "asdf23"
+alnum = number.isalnum()
+alnumstr = str(alnum)
+print("Is \""+number+"\" alphanumeric? : "+alnumstr)
