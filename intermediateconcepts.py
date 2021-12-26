@@ -34,7 +34,14 @@ myTuple = tuple(y) # converts list to tuple
 fruitTuple = ("apple","banana","cherry") # when values are assigned to a tuple,
 # it is called packing a tuple
 (green,yellow,red) = fruitTuple # assigns values to variables - e.g. "apple" > green, "cherry" > red
-print(green)
+print(green) # now you can print in separate variables
 print(yellow)
 print(red)
 print(green, yellow, red)
+anotherFruitTuple = ("apple", "banana", "cherry", "strawberry")
+(limegreen, cadmiumyellow, *bloodred) = anotherFruitTuple # the * before bloodred assigns the
+# - remaining items to a list with the variable "bloodred"
+print(limegreen) # now you can print in separate variables like before
+print(cadmiumyellow)
+print(bloodred)
+print(limegreen, cadmiumyellow, bloodred)
