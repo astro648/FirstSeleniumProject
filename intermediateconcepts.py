@@ -27,3 +27,14 @@ print(copyList) # prints the new list
 list3 = ["a","b","c"]
 list4=myList+list3
 print(list4) # prints the new list
+myTuple = ("abc","def","ghk") # tuple
+print(myTuple)
+y = list(myTuple) # converts tuple into list
+myTuple = tuple(y) # converts list to tuple
+fruitTuple = ("apple","banana","cherry") # when values are assigned to a tuple,
+# it is called packing a tuple
+(green,yellow,red) = fruitTuple # assigns values to variables - e.g. "apple" > green, "cherry" > red
+print(green)
+print(yellow)
+print(red)
+print(green, yellow, red)
