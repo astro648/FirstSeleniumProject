@@ -8,3 +8,22 @@ print(myList[2:5]) # prints values 3-6, similar to string slicing
 myList[2] = "lemon" # replaces 3rd value "cherry" in myList with "lemon"
 myList.insert(2, "watermelon") # places "watermelon" in 3rd value between "banana" and "orange"
 print(myList) # prints the new list
+myList.append("cherry") # adds a new item called "cherry" at the end
+print(myList) # prints the new list
+appendList = ["carrot","celery","broccoli","spinach"] # new list to append to myList
+myList.extend(appendList) # appends appendList to myList
+print(myList) # prints the new list
+myList.remove("watermelon") # removes "watermelon" from the list
+myList.pop(3) # removes "orange" from the list
+print(myList) # prints the new list
+del myList[1] # deletes first value of myList
+print(myList) # prints the new list
+myList.sort() # sorts list alphabetically
+print(myList) # prints the new list
+myList.sort(reverse=True) # alphabetically but reverse
+print(myList) # prints the new list
+copyList = myList.copy() # copies myList to copyList
+print(copyList) # prints the new list
+list3 = ["a","b","c"]
+list4=myList+list3
+print(list4) # prints the new list
