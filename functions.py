@@ -14,4 +14,20 @@ my_function(fname = "Tobias", lname = "Refsnes")
 
 def my_family(youngest="Jane"):
     print("The youngest child is: ",youngest) # using predefined parameters
-my_family()
+my_family("Joe") # this changes Jane to Joe
+
+def oneplusone(basevalue=1):
+    doublebasevalue = basevalue*2
+    print(basevalue,"+",basevalue,"=",doublebasevalue)
+oneplusone()
+
+def tri_recursion(k):
+  if(k > 0):
+    result = k + tri_recursion(k - 1)
+    print(result)
+  else:
+    result = 0
+  return result
+
+print("\n\nRecursion Example Results")
+tri_recursion(6)
