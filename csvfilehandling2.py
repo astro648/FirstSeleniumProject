@@ -1,4 +1,4 @@
-# This is an example I got
+# This is an example I got which creates university_records.csv with the data
 
 # importing the csv module
 import csv
