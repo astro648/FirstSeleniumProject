@@ -17,3 +17,8 @@ if os.path.exists("sample2.txt"):
     os.remove("sample2.txt") #deletes sample2.txt
 else:
     print("\"sample2.txt\" does not exist")
+
+if os.path.exists("folderfordeletion"):
+    os.remove("folderfordeletion")
+else:
+    print("\"folderfordeletion\" does not exist")
