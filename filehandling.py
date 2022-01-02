@@ -1,3 +1,4 @@
+import os
 file = open('sample.txt','r')
 print(file.read(5)) # prints first 5 characters in selected file
 file.close() # closes file for this instance
@@ -11,3 +12,6 @@ file2.close()
 filewrite2 = open('sample.txt','a')
 filewrite2.write("\nKali Linux can be used for hacking") # appends above text with this
 filewrite.close()
+
+
+os.remove("sample2.txt") #deletes sample2.txt
