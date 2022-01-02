@@ -13,5 +13,7 @@ filewrite2 = open('sample.txt','a')
 filewrite2.write("\nKali Linux can be used for hacking") # appends above text with this
 filewrite.close()
 
-
-os.remove("sample2.txt") #deletes sample2.txt
+if os.path.exists("sample2.txt"):
+    os.remove("sample2.txt") #deletes sample2.txt
+else:
+    print("\"sample2.txt\" does not exist")
