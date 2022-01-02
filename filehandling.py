@@ -8,5 +8,6 @@ filewrite.close()
 file2 = open('sample.txt','r')
 print(file2.read()) #prints the entire file
 file2.close()
-filewrite2 = open('sample.txt','w')
-filewrite2.write("Kali Linux can be used for hacking") # completely overwrites the above text with this
+filewrite2 = open('sample.txt','a')
+filewrite2.write("\nKali Linux can be used for hacking") # appends above text with this
+filewrite.close()
