@@ -14,3 +14,5 @@ print(x.year)  # only prints current year
 print(x.strftime("%A"))  # prints current day's name (e.g. Friday)
 # if %a (lowercase) is used, only Fri from above example will print
 
+y = dt.datetime(2022, 1, 7, 17)  # custom date with Yr, Mo, Day, Hr
+print(y) #prints custom date
