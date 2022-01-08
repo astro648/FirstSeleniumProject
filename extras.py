@@ -31,6 +31,15 @@ print(x.strftime("%H"))  # this will print the hour of the day in 24h number for
 # some JSON:
 x = '{ "name":"John", "age":30, "city":"New York"}'
 # parse x:
+x2 = {
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+}
 y = json.loads(x)
 # the result is a Python dictionary:
 print(y["name"], "\'s age is ", y["age"])
+
+# py --> json
+y2 = json.dumps(x2)
+print(y2) # this prints the JSON in raw form
