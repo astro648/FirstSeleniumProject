@@ -4,6 +4,13 @@ x = 300
 
 
 def myfunc():
-    global x # this changes the global variable x
-    x = 200 # to 200
+    global x  # this changes the global variable x
+    x = 200  # to 200
     print(x)
+
+
+person1 = {
+    "name": "John",
+    "age": 36,
+    "country": "Norway"
+}
