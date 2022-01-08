@@ -1,6 +1,7 @@
 import mymodule as mm  # mm replaces mymodule when needed
 import datetime as dt  # dt replaces datetime
 from mymodule import person1  # imports library person1
+import json  # imports json functionality
 
 mm.myfunc()  # instead of writing mymodule.myfunc() we write mm.myfunc()
 x = mm.x  # uses the x value from mm
@@ -24,3 +25,10 @@ print(y.strftime("%W"))  # this will print month number from 01 to 12
 print(y.strftime("%d"))  # this will print day number of the month
 
 print(x.strftime("%H"))  # this will print the hour of the day in 24h number format
+
+# some JSON:
+x = '{ "name":"John", "age":30, "city":"New York"}'
+# parse x:
+y = json.loads(x)
+# the result is a Python dictionary:
+print(y["age"])
