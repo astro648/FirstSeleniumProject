@@ -19,3 +19,7 @@ y = dt.datetime(2022, 1, 7, 17)  # custom date with Yr, Mo, Day, Hr
 print(y)  # prints custom date
 print(y.strftime("%B"))  # prints current month's name using the custom date
 # lowercase B will print the shortened version as well
+print(y.strftime("%w")) # this will print weekday number from 0 to 6
+print(y.strftime("%W")) # this will print month number from 01 to 12
+print(y.strftime("%d")) # this will print day number of the month
+
