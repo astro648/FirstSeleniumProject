@@ -26,9 +26,11 @@ print(y.strftime("%d"))  # this will print day number of the month
 
 print(x.strftime("%H"))  # this will print the hour of the day in 24h number format
 
+# JSON is a format for storing and exchanging data
+# This is an example
 # some JSON:
 x = '{ "name":"John", "age":30, "city":"New York"}'
 # parse x:
 y = json.loads(x)
 # the result is a Python dictionary:
-print("John's age is ", y["age"])
+print(y["name"], "\'s age is ", y["age"])
