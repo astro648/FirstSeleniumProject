@@ -18,3 +18,9 @@ y = re.findall("he.?o", txt2)
 print(y)
 
 # This time we got no match, because there were not zero, not one, but two characters between "he" and the "o"
+
+y = re.findall("he.{2}o", txt2)
+
+print(y)
+
+# Now we get a match because it searches for exactly 2 characters between "he" and "o"
